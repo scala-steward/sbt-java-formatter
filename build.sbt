@@ -23,7 +23,7 @@ lazy val plugin = project
     (pluginCrossBuild / sbtVersion) := {
       scalaBinaryVersion.value match {
         case "2.12" => "1.9.0"
-        case _      => "2.0.0-RC3"
+        case _      => "2.0.0-RC6"
       }
     },
     scalacOptions ++= {
